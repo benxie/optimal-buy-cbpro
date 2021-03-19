@@ -349,16 +349,6 @@ def main():
         "name":"Bitcoin",
         "withdrawal_address":null,
         "external_balance":0
-      },
-      "ETH":{
-        "name":"Ethereum",
-        "withdrawal_address":null,
-        "external_balance":0
-      },
-      "LTC":{
-        "name":"Litecoin",
-        "withdrawal_address":null,
-        "external_balance":0
       }
     }
     """
