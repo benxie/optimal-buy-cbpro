@@ -365,8 +365,8 @@ def main():
     parser.add_argument("--passphrase", help="API passphrase", required=True)
     parser.add_argument(
         "--api-url",
-        help="API URL (default: https://api.pro.coinbase.com)",
-        default="https://api.pro.coinbase.com",
+        help="API URL (default: https://api-public.sandbox.pro.coinbase.com)",
+        default="https://api-public.sandbox.pro.coinbase.com",
     )
     parser.add_argument(
         "--payment-method-id", help="Payment method ID for fiat deposits"
