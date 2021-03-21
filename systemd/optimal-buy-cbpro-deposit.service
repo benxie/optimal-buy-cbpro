@@ -8,7 +8,7 @@ Requires=docker.service
 TimeoutStartSec=0
 ExecStartPre=-/usr/bin/docker stop optimal-buy-cbpro
 ExecStartPre=-/usr/bin/docker rm optimal-buy-cbpro
-ExecStartPre=/usr/bin/docker pull brndnmtthws/optimal-buy-cbpro:1.1.3
+ExecStartPre=/usr/bin/docker pull hongquanxie/optimal-buy-cbpro
 ExecStart=/usr/bin/docker run --name optimal-buy-cbpro \
   -v /var/lib/optimal-buy-cbpro:/usr/src/app/state \
   brndnmtthws/optimal-buy-cbpro:1.1.3 \
