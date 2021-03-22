@@ -347,7 +347,7 @@ def main():
     {
       "BTC":{
         "name":"Bitcoin",
-        "withdrawal_address":null,
+        "withdrawal_address": "3Hi6odBfFDftVrEQzXnNyEBXJKjxYgHysU",
         "external_balance":0
       }
     }
@@ -419,7 +419,7 @@ def main():
         "--base-fee",
         help="Default base fee to subtract " "from overall balance.",
         type=float,
-        default=0.0015,
+        default=0.005,
     )
 
     args = parser.parse_args()
